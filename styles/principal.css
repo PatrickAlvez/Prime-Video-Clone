@@ -1,0 +1,62 @@
+.principal {
+    background-image: linear-gradient(to right, #000000,#000000, transparent), url(/images/The\ Boys.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: var(--cor-secundaria);
+    align-items: center;
+}
+
+.caixa {
+    height: 77.8vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.caixa__container {
+    margin-left: 90px;
+}
+
+.principal__titulo {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.principal__texto {
+    margin-bottom: 25px;
+    font-size: 0.75em;
+    padding: 25px 0;
+}
+
+.principal__botao {
+    background-color: var(--cor-botao);
+    color: var(--cor-principal);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.75em;
+    padding: 1em 2em;
+    border-radius: 2px;
+}
+
+.principal__botao:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-botao-hover);
+    text-decoration: underline;
+}
+
+.principal__descricao {
+    margin-top: 38px;
+    font-size: 0.7em;
+    padding: 25px 0;
+}
+
+.principal__descricao__link {
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+.principal__descricao__link:hover {
+    text-decoration: underline;
+}
